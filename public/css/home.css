@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&family=Roboto+Slab&display=swap');
+*{
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive,serif;
+}
+/* category image style */
+.card-img-top{
+    height:150px;
+}
+/* Logo Div Style*/
+.navhead
+{
+    margin-top:0px;
+}
+.content{
+    position: relative;
+    background-color:  rgba(0, 0, 0, 0.863);
+    height: 50px;
+    word-wrap: normal;
+}
+.head{
+    font-weight: 700;
+    position: relative;
+    margin-top: 0px;
+}
+
+.content nav{
+    position: absolute;
+}
+
+nav ul li{
+    display: inline;
+    justify-content: space-between;
+    list-style-type: none;
+    position: relative;
+    right: -700px;
+    padding: 10px;
+}
+nav ul li a{
+    position: relative;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 400;
+    top: -40px;
+    cursor: auto;
+    overflow: hidden;
+}
+.home:hover,.admin:hover,.cust:hover,.customer:hover,.about:hover,.contact:hover{
+    color: orange;
+    text-decoration: none;
+}
+.omer:hover,.us:hover,.con:hover{
+    color: darkblue;
+    text-decoration: none;
+}
+/* footer */
+footer{
+    background-color: rgb(1, 1, 94);
+    color: white;
+}
+.nov{
+    color: orange;
+}
